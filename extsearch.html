@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>ExtSearch</title>
+</head>
+<body>
+    <div class="link">
+        <a href="index.html">Обычный поиск</a>
+        <a href="picsearch.html">Поиск изображений</a>
+    </div>
+
+    <div class="ExtGoogleImg">
+        <h1>Google</h1>
+    </div>
+
+    <div class="texting">
+        Расширенный поиск
+    </div>
+
+    <div class="search-ext">
+        <form action="https://www.google.com/search?as_q=q&as_epq=r&as_oq=s&as_eq=t" method="get">
+            <div class="Stroka">
+                Найдите страницы с… «всеми этими словами:» <br />
+                <input class="search" type="textex" name="as_q" placeholder="">
+            </div>
+
+            <div class="Stroka">
+                Найти страницы с… «это точное слово или фраза:»<br />
+                <input class="search" type="textex" name="as_epq" placeholder="">
+            </div>
+
+            <div class="Stroka">
+                Найдите страницы с… «любым из этих слов:»<br />
+                <input class="search" type="textex" name="as_oq" placeholder="">
+            </div>
+
+            <div class="Stroka">
+                Найдите страницы с… «ни одним из этих слов:»<br />
+                <input class="search" type="textex" name="as_eq" placeholder="">
+            </div>
+            <button class="extsearch">Расширенный поиск</button>
+        </form>
+    </div>
+    
+</body>
+</html>
